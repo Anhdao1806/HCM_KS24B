@@ -62,7 +62,7 @@ int main() {
             case 4 :{
                 break ;
             }
-            case 5:
+            case 5:{
                             printf("Nhap gia tri can them: ");
                             scanf("%d", &value);
                             pos = n / 2;
@@ -73,20 +73,8 @@ int main() {
                             n++;
                             printf("Da them phan tu %d vao vi tri  %d.\n", value, pos);
                             break;
+            }
 
-                        case 6:
-                            printf("Nhap vi tri can xoa: ");
-                            scanf("%d", &pos);
-                            if (pos >= 0 && pos < n) {
-                                for (i = pos; i < n - 1; i++) {
-                                    arr[i] = arr[i + 1];
-                                }
-                                n--;
-                                printf("da xoa phan tu tai vi tri %d.\n", pos);
-                            } else {
-                                printf("Vi tri khong hop le.\n");
-                            }
-                            break;
           
                 
           
