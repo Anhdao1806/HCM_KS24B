@@ -63,15 +63,6 @@ int main() {
                 break ;
             }
             case 5:{
-                            printf("Nhap gia tri can them: ");
-                            scanf("%d", &value);
-                            pos = n / 2;
-                            for (int i = n; i > pos; i--) {
-                                arr[i] = arr[i - 1];
-                            }
-                            arr[pos] = value;
-                            n++;
-                            printf("Da them phan tu %d vao vi tri  %d.\n", value, pos);
                             break;
             }
 
